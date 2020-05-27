@@ -4,11 +4,10 @@ MAINTAINER zaflun UG "developer@zaflun.com"
 
 # Installation as in  https://github.com/docker-library/openjdk/blob/master/8/jdk/Dockerfile
 
-RUN apt-get update && \
-	apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzip2 \
 		unzip \
-		xz-utils
+		xz-utils \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Default to UTF-8 file.encoding
