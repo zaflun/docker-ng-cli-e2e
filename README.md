@@ -34,7 +34,7 @@ The solution is to run an update to a fixed version just before the actual build
 For example:
 
 ```
-docker ... trion/ng-cli-e2e:11.1.0 \
+docker ... zaflun/ng-cli-e2e:11.1.0 \
     ./node_modules/protractor/bin/webdriver-manager update --versions.chrome 88.0.4324.96 && \
     ng e2e --webdriver-update=false
 ```
