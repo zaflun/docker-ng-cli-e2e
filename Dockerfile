@@ -1,4 +1,4 @@
-FROM zaflun/ng-cli-karma:11.2.3
+FROM zaflun/ng-cli-karma:11.2.4
 
 MAINTAINER zaflun UG "developer@zaflun.com"
 
